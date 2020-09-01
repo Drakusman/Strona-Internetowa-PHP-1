@@ -1,0 +1,84 @@
+
+body {
+	font: normal 12px Verdana;
+	color: #606060;
+	background: url(../img/tlo.jpg) no-repeat;
+}
+
+a {
+	color: #ba1e29;
+	text-decoration:none;
+}
+a:hover {
+	color: #eaa45e;
+	
+}
+
+.menu {
+	width: 900px;
+	margin: 98px 0 0 300px;
+}
+.menu a {
+	color: #ba1e29;
+	font: bold 18px Verdana;
+	margin: 0 30px 0 0;
+	text-decoration:none;
+}
+.menu a:hover {
+	color: #eaa45e;
+	
+}
+
+.tekst {
+	width: 600px;
+	margin: 20px 0 0 300px;
+	font: bold 12px Verdana;
+	color: #606060;
+	line-height: 30px;
+	text-align: justify;
+}
+
+p.malyakapit {
+	font: bold 11px Verdana;
+	color: #606060;
+	margin: 0 0 5px 0;
+}
+
+input.submit {
+	border:0;
+	background: #ba1e29;
+	font: bold 14px Verdana;
+	color: #fff;
+	padding: 8px;
+}
+
+input.text {
+	width: 500px;
+	padding: 10px;
+	border: 1px solid #ba1e29;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	border: 1px solid #ba1e29;
+}
+
+.naglowek {
+	background: #ba1e29;
+	font: bold 14px Verdana;
+	color: #fff;
+	padding: 8px;
+}
+.wiersz1 {
+	background: #ffdee0;
+	font: bold 14px Verdana;
+	color: #606060;
+	padding: 8px;
+}
+.wiersz2 {
+	font: bold 14px Verdana;
+	color: #606060;
+	padding: 8px;
+}

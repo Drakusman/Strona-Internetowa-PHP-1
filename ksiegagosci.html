@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Moja strona domowa</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Strona domowa">
+		<meta name="keywords" content="słowa, kluczowe">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+	<body>
+
+			<!-- warstwa z menu -->
+			<div class="menu">
+				<a href="index.html">Strona główna</a>
+				<a href="omnie.html">O mnie</a>
+				<a href="linki.html">Ulubione linki</a>
+				<a href="galeria.html">Galeria</a>
+				<a href="ksiegagosci.html">Księga gości</a>
+				<a href="goscie.html">Goście</a>
+			</div>
+			
+			<!-- warstwa z tekstem -->
+			<div class="tekst">
+			
+			<h1>Księga gości</h1>
+			
+			
+			<p>Zapisz się do księgi gości</p>
+			
+			<form action="form.php" method="post">
+				
+				<p class="malyakapit">Podaj swoje imię</p>
+				<input class="text" type="text" name="imie" ><br><br>
+				
+				
+				<p class="malyakapit">Skąd wiesz o tej stronie</p>
+				<input type="radio" name="skad" value="radio" >reklama w radiu<br >
+				<input type="radio" name="skad" value="tv" >reklama w tv<br >
+				<input type="radio" name="skad" value="kolega" >od kolegi<br >
+				<input type="radio" name="skad" value="google" >trafiłem w google<br><br>
+				
+				<p class="malyakapit">Ile masz lat?</p>
+				<select name="wiek">
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+				</select><br><br>
+				
+				<p class="malyakapit">Napisz co sądzisz o stronie</p>
+				<textarea name="wiadomosc"></textarea><br><br>
+				
+				<input type="submit" class="submit" value="Wyślij!" >
+			
+			</form>
+			
+			</div>
+
+	</body>
+</html>
+
